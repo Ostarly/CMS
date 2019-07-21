@@ -1,0 +1,82 @@
+.main_panel {
+    margin: 2% 1% 2% 2%;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: rgba($color: #ABB2B9, $alpha: 0.6);
+    width: 60%;
+    float: left;
+
+    .input-group {
+        width: 95%;
+        margin: auto;
+        margin-top: 4%;
+    }
+
+    h2 {
+        margin-left: 2.3%;
+        color: rgba($color: #6A4028, $alpha: 0.6);
+    }
+
+    .content {
+        overflow: hidden;
+    }
+}
+
+.profile {
+    display: block;
+    float: right;
+    background-color: rgba($color: #D7C4BB, $alpha: 0.6);
+    margin: 2% 4% 2% 0;
+    width: 30%;
+    border-radius: 10px;
+    padding: 1px;
+    transition: box-shadow .30s;
+
+    .uPic {
+        width: 72px;
+        height: 75px;
+        border-radius: 120px;
+        margin: 2% auto;
+        background-color: white;
+        z-index: 0;
+
+        img {
+            position: relative;
+            z-index: 4;
+        }
+    }
+
+    .profile_info, .info_data {
+        width: 100%;
+        height: auto;
+        width: auto;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+
+            li {
+                display: inline-block;
+                width: auto;
+                height: auto;
+                margin: 0 10;
+                padding: 1% 5%;
+
+                a {
+                    color: rgba($color: #EB7A77, $alpha: 1);
+                    font-size: 16px;
+
+                    &:hover {
+                        text-decoration: none;
+                        color: rgba($color: #6A4028, $alpha: 0.8);
+                    }
+                }
+            }
+
+            .info_data {
+                padding: 1% 12%;
+            }
+        }
+    }
+}

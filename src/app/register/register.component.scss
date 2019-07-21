@@ -1,0 +1,28 @@
+form {
+    padding: 7% 20%;
+
+    .background {
+        padding: 2%;
+        border-radius: 15px;
+        background-color: azure;
+
+        h1 {
+            text-align: center;
+        }
+
+        small {
+            display: block;
+            text-align: center;
+            font-size: 13pt;
+        }
+
+        .form-row{
+            margin-top: 1%;
+        }
+
+        .btn-lg {
+            width: 50%;
+            margin: auto;
+        }
+    }
+}

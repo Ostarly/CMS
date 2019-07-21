@@ -19,29 +19,18 @@
     <form class="form-inline">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      
     </form>
     <div class="btn-group">
-      <button type="button" class="btn bg-transparent dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <button type="button" class="btn bg-transparent dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
         <i class="fa fa-user" aria-hidden="true"></i> {{user}}
       </button>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Login</a>
+        <a class="dropdown-item" routerLink="/login">Login</a>
+        <a class="dropdown-item" routerLink="/registration">Registration</a>
         <a class="dropdown-item" href="#">Logout</a>
       </div>
     </div>
-    <div>
-      
-        
-        <!-- <li class="nav-item dropdown" dropdown>
-          <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
-            <mdb-icon fas icon="user"></mdb-icon> Profile<span class="caret"></span>
-          </a>
-          <div *dropdownMenu class="dropdown-menu dropdown-menu-right dropdown dropdown-primary" role="menu">
-            <a class="dropdown-item waves-light" mdbWavesEffect href="#">My account</a>
-            <a class="dropdown-item waves-light" mdbWavesEffect href="#">Log out</a>
-          </div>
-        </li> -->
-      
     </div>
-  </div>
 </nav>

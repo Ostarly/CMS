@@ -9,6 +9,8 @@ import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { PagenofoundComponent } from './pagenofound/pagenofound.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -19,6 +21,8 @@ import { PagenofoundComponent } from './pagenofound/pagenofound.component';
     FooterComponent,
     HomeComponent,
     PagenofoundComponent,
+    RegisterComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

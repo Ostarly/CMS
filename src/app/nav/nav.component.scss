@@ -1,3 +1,15 @@
-.btn-group{
-    margin-left: 1%;
+.btn-group {
+    margin: 0 1%;
+}
+
+.dropdown-menu {
+    min-width: 50px;
+    width: 110px;
+
+    .dropdown-item {
+        float: left;
+        min-width: 80px;
+        width: 100%;
+        padding: 2px 14px;
+    }
 }

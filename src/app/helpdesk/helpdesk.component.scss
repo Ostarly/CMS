@@ -1,0 +1,40 @@
+.main-container {
+    margin: 3%;
+    padding-bottom: 30%;
+
+    h1 {
+        padding-left: 6%;
+    }
+
+    .left-tab {
+        margin-top: 5%;
+        width: 30%;
+        float: left;
+
+        .nav {
+            padding-left: 20%;
+        }
+
+        a {
+            width: 50%;
+        }
+    }
+
+    .right-tab {
+        margin-top: 5%;
+        width: 65%;
+        float: left;
+
+        .card{
+            border-radius: 5px;
+        }
+
+        .card-header {
+            background-color: rgba($color: #58B2DC, $alpha: 1);
+
+            button {
+                color: white;
+            }
+        }
+    }
+}

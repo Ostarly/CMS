@@ -4,7 +4,7 @@ form {
     .background {
         padding: 2%;
         border-radius: 15px;
-        background-color: azure;
+        background-color: rgba($color: #FCFAF2, $alpha: 0.55);
 
         h1 {
             text-align: center;
@@ -16,7 +16,7 @@ form {
             font-size: 13pt;
         }
 
-        .form-row{
+        .form-row {
             margin-top: 1%;
         }
 

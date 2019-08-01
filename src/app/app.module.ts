@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { PagenofoundComponent } from './pagenofound/pagenofound.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
+import { HelpdeskComponent } from './helpdesk/helpdesk.component';
 
 
 
@@ -23,6 +24,7 @@ import { LoginComponent } from './login/login.component';
     PagenofoundComponent,
     RegisterComponent,
     LoginComponent,
+    HelpdeskComponent,
   ],
   imports: [
     BrowserModule,

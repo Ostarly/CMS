@@ -7,7 +7,11 @@
   </div>
 
   <div class="newpost">
-    <h2>New Post</h2>
+    
+    <h2 *ngIf="id!=1; else elseblock">New Posts</h2>
+    <!--If a user has logged in, the subtitle will change-->
+    <ng-template #elseblock> <h2>My Posts</h2> </ng-template>
+    
     <div class="content"></div>
   </div>
 </div>
